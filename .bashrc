@@ -1,4 +1,4 @@
-export PATH=/usr/local/go/bin:$HOME/bin:/usr/local/bin:/bin:/usr/bin:/sbin:/usr/sbin:/usr/local/sbin
+export PATH=$HOME/.local/bin:/usr/local/go/bin:$HOME/bin:$HOME/go/bin:/usr/local/bin:/bin:/usr/bin:/sbin:/usr/sbin:/usr/local/sbin
 
 export CDPATH=.:$HOME
 export MANPATH=/usr/share/man:/usr/man:/usr/local/share/man:/usr/local/man
