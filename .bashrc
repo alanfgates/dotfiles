@@ -23,9 +23,9 @@ export EDITOR=vim
 ulimit -n 32768
 
 gfind() {
-    find $1 -name $2 -exec grep -H $3 {} \;
+    find $1 -name $2 -exec grep -H "$3" {} \;
 }
 
 gifind() {
-    find $1 -name $2 -exec grep -Hi $3 {} \;
+    find $1 -name $2 -exec grep -Hi "$3" {} \;
 }
