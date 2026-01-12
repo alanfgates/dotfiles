@@ -3,16 +3,14 @@ export PATH=$HOME/.local/bin:/usr/local/go/bin:$HOME/bin:$HOME/go/bin:/usr/local
 export CDPATH=.:$HOME
 export MANPATH=/usr/share/man:/usr/man:/usr/local/share/man:/usr/local/man
 
-
 case $TERM in
-  xterm*)
-	  export PS1="\[\033]0;\w\007\]\u> "
+  xterm* | screen-xterm*)
+      export PS1="\[\033]0;\w\007\]\W> "
     ;;
 
   *)
     export PS1="\w> "
 esac
-
 
 alias ls='ls -FC'
 alias ll='ls -l'
