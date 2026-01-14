@@ -4,7 +4,7 @@ export CDPATH=.:$HOME
 export MANPATH=/usr/share/man:/usr/man:/usr/local/share/man:/usr/local/man
 
 case $TERM in
-  xterm* | screen-xterm*)
+  xterm* | screen.xterm*)
       export PS1="\[\033]0;\w\007\]\W> "
     ;;
 
